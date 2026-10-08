@@ -1,3 +1,13 @@
+# 最新安装测试包
+
+[下载轻停候选7安装测试 APK](https://raw.githubusercontent.com/pulan007/gpt/main/quietguard/downloads/candidate7/quietguard-candidate7-gkd-release-install-test.apk)（约 3.07 MB） · [安装说明、验证结果与限制](downloads/candidate7/README.md)
+
+默认关闭、真实规则为 0，不代表去广告功能有效。使用新的本地测试签名，可能无法覆盖旧版。应用测试 57/57 通过；选择器测试部分受网络阻碍，Release Lint 有未消除问题。完整范围见下载说明。
+
+以下为原源码归档说明，保留其发布时的历史状态；最新 APK 交付信息以上述下载说明为准。
+
+---
+
 # 轻停 QuietGuard · 候选7诊断源码
 
 本目录的源码压缩包公开保存 2026-10-07 的候选7快照修正源码，发布日期 2026-10-08。

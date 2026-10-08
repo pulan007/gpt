@@ -1,0 +1,200 @@
+{
+  "file": "quietguard-candidate7-gkd-release-install-test.apk",
+  "size_bytes": 3067881,
+  "sha256": "7996415407f05eb857c2c52d346056ab9fe64e50cfa41cb81cbf450bc6208bfd",
+  "package": "dev.quietguard.gkd.fixturetest",
+  "version_code": "1",
+  "version_name": "0.3.0-owned-fixture-TEST-ONLY.1",
+  "abis": [
+    "arm64-v8a",
+    "x86",
+    "x86_64"
+  ],
+  "native_libraries": [
+    "lib/arm64-v8a/libandroidx.graphics.path.so",
+    "lib/x86/libandroidx.graphics.path.so",
+    "lib/x86_64/libandroidx.graphics.path.so"
+  ],
+  "permissions": [
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+    "dev.quietguard.gkd.fixturetest.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "debuggable": false,
+  "signature_verification": [
+    "Verifies",
+    "Verified using v1 scheme (JAR signing): false",
+    "Verified using v2 scheme (APK Signature Scheme v2): true",
+    "Verified using v3 scheme (APK Signature Scheme v3): false",
+    "Verified using v3.1 scheme (APK Signature Scheme v3.1): false",
+    "Verified using v3.2 scheme (APK Signature Scheme v3.2): false",
+    "Verified using v4 scheme (APK Signature Scheme v4): false",
+    "Verified for SourceStamp: false",
+    "Number of signers: 1",
+    "V2 Signer: certificate DN: CN=QuietGuard Local Installation Test",
+    "V2 Signer: certificate SHA-256 digest: 997c5d00401185154af6a66fc6d9924b6df71b2f08025607927a0479509e7056",
+    "V2 Signer: certificate SHA-1 digest: e7e6b4b4c4786c3574b3161b434f0ac0705dc3b4",
+    "V2 Signer: certificate MD5 digest: 498fd6c7b0cf38f7bce9eee2870634fd",
+    "V2 Signer: key algorithm: RSA",
+    "V2 Signer: key size (bits): 3072",
+    "V2 Signer: public key SHA-256 digest: f94edb03e1dab44abb30e06b28d699ec29182305eb5cb0b0bf6aaeaa4cebf1d7",
+    "V2 Signer: public key SHA-1 digest: 6f1dc6b256c2a6f336cf2b94a4ef803272a284b9",
+    "V2 Signer: public key MD5 digest: 6449719269482ef18b3b3c5fa4c5b97b"
+  ],
+  "zipalign_16kb_check": "passed",
+  "zip_crc_check": "passed",
+  "archive_names_for_manual_review": [],
+  "min_sdk": "26",
+  "target_sdk": "37",
+  "source_commit": "b18f28eac70861e755b30a82f598c8dd2bab28e2",
+  "source_archive_sha256": "a20c141d6eddd3f82544f26a76275b5ef671cac98a1e461232dd352773906bc3",
+  "build_variant": "gkdRelease",
+  "owned_fixture_opt_in": false,
+  "application_source_modifications": [],
+  "tests": {
+    "app": {
+      "suites": [
+        {
+          "name": "li.songe.gkd.ExampleUnitTest",
+          "tests": "1",
+          "failures": "0",
+          "errors": "0",
+          "skipped": "0"
+        },
+        {
+          "name": "li.songe.gkd.a11y.PrivateActivityAdmissionTest",
+          "tests": "12",
+          "failures": "0",
+          "errors": "0",
+          "skipped": "0"
+        },
+        {
+          "name": "li.songe.gkd.a11y.PrivateQueryCoordinatorTest",
+          "tests": "14",
+          "failures": "0",
+          "errors": "0",
+          "skipped": "0"
+        },
+        {
+          "name": "li.songe.gkd.data.PrivateActionPolicyTest",
+          "tests": "2",
+          "failures": "0",
+          "errors": "0",
+          "skipped": "0"
+        },
+        {
+          "name": "li.songe.gkd.data.ProductionCatalogTest",
+          "tests": "1",
+          "failures": "0",
+          "errors": "0",
+          "skipped": "0"
+        },
+        {
+          "name": "li.songe.gkd.data.ReviewedRuleAdmissionTest",
+          "tests": "7",
+          "failures": "0",
+          "errors": "0",
+          "skipped": "0"
+        },
+        {
+          "name": "li.songe.gkd.data.ReviewedRuleCatalogTest",
+          "tests": "13",
+          "failures": "0",
+          "errors": "0",
+          "skipped": "0"
+        },
+        {
+          "name": "li.songe.gkd.data.ReviewedRuleOptimizationTest",
+          "tests": "7",
+          "failures": "0",
+          "errors": "0",
+          "skipped": "0"
+        }
+      ],
+      "totals": {
+        "tests": 57,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    },
+    "selector": {
+      "suites": [
+        {
+          "name": "ParserUnitTest[jvm]",
+          "tests": "10",
+          "failures": "2",
+          "errors": "0",
+          "skipped": "0"
+        },
+        {
+          "name": "QueryUnitTest[jvm]",
+          "tests": "7",
+          "failures": "7",
+          "errors": "0",
+          "skipped": "0"
+        },
+        {
+          "name": "TypeUnitTest[jvm]",
+          "tests": "1",
+          "failures": "0",
+          "errors": "0",
+          "skipped": "0"
+        }
+      ],
+      "totals": {
+        "tests": 18,
+        "failures": 9,
+        "errors": 0,
+        "skipped": 0
+      },
+      "failure_reason": "9 tests require external snapshot fixtures; UnknownHostException. Host f.gkd.li also refused proxy connection with HTTP CONNECT 403. No test assertions were changed or skipped."
+    }
+  },
+  "lint": {
+    "status": "failed",
+    "errors": 1,
+    "warnings": 32,
+    "issue_counts": [
+      {
+        "severity": "Error",
+        "id": "MissingClass",
+        "count": 1
+      },
+      {
+        "severity": "Warning",
+        "id": "GradleDependency",
+        "count": 1
+      },
+      {
+        "severity": "Warning",
+        "id": "NewerVersionAvailable",
+        "count": 23
+      },
+      {
+        "severity": "Warning",
+        "id": "QueryPermissionsNeeded",
+        "count": 1
+      },
+      {
+        "severity": "Warning",
+        "id": "UnusedResources",
+        "count": 6
+      },
+      {
+        "severity": "Warning",
+        "id": "UseKtx",
+        "count": 1
+      }
+    ],
+    "error": "MissingClass on tools:node=\"remove\" PreviewActivity source Manifest marker; actual APK Manifest contains no PreviewActivity. No suppression added."
+  },
+  "validation_not_run": [
+    "Physical-device installation and launch",
+    "HyperOS compatibility",
+    "Instrumented/device tests",
+    "Automatic ad closing",
+    "Real application rules, rewards, battery or thermal measurements"
+  ]
+}

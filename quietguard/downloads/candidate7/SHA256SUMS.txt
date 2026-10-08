@@ -1,0 +1,4 @@
+20285ec32502f2e5050ca9b6b25bbebe23fb7fb7a9a6e46e3654996014ff9888  README.md
+83d59d94483567d13cade0e5b096081587ddedcfa21294a77eb13dd268a41b8f  VERIFICATION.json
+2d44215a631fb6ea9bdfb659ac447400b3acef99b085f0732e764178fff110c2  build-dependencies-source.tar.gz
+7996415407f05eb857c2c52d346056ab9fe64e50cfa41cb81cbf450bc6208bfd  quietguard-candidate7-gkd-release-install-test.apk
